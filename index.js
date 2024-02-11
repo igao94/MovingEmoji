@@ -3,12 +3,12 @@ const moveAmount = 20;
 let x = 0;
 let y = 0;
 
-document.addEventListener("keydown", (event) => {
+document.addEventListener("keydown", () => {
   box.style.backgroundColor = "tomato";
   box.textContent = "🤬";
 });
 
-document.addEventListener("keyup", (event) => {
+document.addEventListener("keyup", () => {
   box.style.backgroundColor = "lightblue";
   box.textContent = "😊";
 });
